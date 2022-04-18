@@ -1,0 +1,106 @@
+{
+  "terminal.integrated.fontSize": 14,
+
+  "workbench.iconTheme": "material-icon-theme",
+
+  "workbench.startupEditor": "newUntitledFile",
+
+  "polacode.backgroundColor": "#6633CC",
+
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 26,
+  "editor.fontFamily": "JetBrains Mono",
+ 
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+
+
+  "workbench.colorCustomizations": {
+    "list.hoverBackground": "#7155d9",
+},
+
+  "material-icon-theme.folders.color": "#BD93F9",   
+
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact",
+    "*.env.development": "env",
+    "*.env.production": "env",
+  },
+
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes",
+    "markdowns": "messages",
+    "in-memory": "tasks",
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+
+  "editor.rulers": [80, 120],
+
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+},
+
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "njk": "html",
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "Aura Dark (Soft Text)",
+  "tabnine.experimentalAutoImports": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+}
