@@ -7,6 +7,9 @@
 
   "polacode.backgroundColor": "#6633CC",
 
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs":"active",
+
   "editor.tabSize": 2,
   "editor.fontSize": 16,
   "editor.lineHeight": 26,
@@ -78,6 +81,7 @@
     "dotenv": "tune"
   },
 
+
   "editor.rulers": [80, 120],
 
   "editor.codeActionsOnSave": {
@@ -93,7 +97,6 @@
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.defaultProfile.linux": "zsh",
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Aura Dark (Soft Text)",
   "tabnine.experimentalAutoImports": true,
   "files.exclude": {
     "**/.classpath": true,
@@ -103,4 +106,5 @@
   },
   "security.workspace.trust.untrustedFiles": "newWindow",
   "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.colorTheme": "Omni Owl",
 }
