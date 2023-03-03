@@ -8,22 +8,23 @@
   "polacode.backgroundColor": "#6633CC",
 
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs":"active",
+  "editor.guides.bracketPairs": "active",
+
+  "cSpell.language": "en,pt,pt_BR",
 
   "editor.tabSize": 2,
   "editor.fontSize": 16,
   "editor.lineHeight": 26,
   "editor.fontFamily": "JetBrains Mono",
- 
+
   "editor.fontLigatures": true,
   "editor.semanticHighlighting.enabled": false,
 
-
   "workbench.colorCustomizations": {
-    "list.hoverBackground": "#7155d9",
-},
+    "list.hoverBackground": "#7155d9"
+  },
 
-  "material-icon-theme.folders.color": "#BD93F9",   
+  "material-icon-theme.folders.color": "#BD93F9",
 
   "explorer.compactFolders": false,
   "editor.renderLineHighlight": "gutter",
@@ -38,8 +39,10 @@
     ".stylelintrc": "json",
     ".prettierrc": "json",
     "*.tsx": "typescriptreact",
+    "*.env": "env",
     "*.env.development": "env",
     "*.env.production": "env",
+    "*.css": "css"
   },
 
   "material-icon-theme.folders.associations": {
@@ -67,7 +70,7 @@
     "eslint-config": "tools",
     "kube": "kubernetes",
     "markdowns": "messages",
-    "in-memory": "tasks",
+    "in-memory": "tasks"
   },
 
   "material-icon-theme.files.associations": {
@@ -81,17 +84,19 @@
     "dotenv": "tune"
   },
 
-
   "editor.rulers": [80, 120],
 
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
   "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-},
+    "source.fixAll.eslint": true
+  },
 
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-    "njk": "html",
+    "njk": "html"
   },
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -106,5 +111,5 @@
   },
   "security.workspace.trust.untrustedFiles": "newWindow",
   "bracket-pair-colorizer-2.depreciation-notice": false,
-  "workbench.colorTheme": "Omni Owl",
+  "workbench.colorTheme": "Shades of Purple (Super Dark)"
 }
