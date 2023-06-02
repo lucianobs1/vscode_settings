@@ -146,7 +146,7 @@ module.exports = {
       borderColors: ['#FF79C6', '#8257E5', '#04D361'],
       borderWidth: '4px',
       animate: {
-        duration: 8000,
+        duration: '8000',
       },
     },
 
